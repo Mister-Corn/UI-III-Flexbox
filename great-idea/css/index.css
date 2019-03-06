@@ -64,3 +64,262 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+ol, ul {
+	list-style: circle;
+}
+
+.main-content {
+	margin: 0 25%;
+}
+
+header {
+	display: flex;
+	margin: 5% 5% 5% 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+}
+
+nav a {
+	margin-top: 1%;
+	text-decoration: none;
+	color: grey;
+}
+
+/* .logo {
+	margin-right: 3%;
+} */
+
+.top-feature {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5% 10%;
+}
+
+.feature-text {
+	width: 30%;
+	height: 220px;
+	margin: 5% 10%;
+}
+
+.feature-text h2 {
+	font-size: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.get-started-btn {
+	margin-left: 25%;
+	width: 50%;
+	height: 15%;
+	background-color: #fff;
+}
+
+.top-content {
+	display: flex;
+	margin: 4% 0;
+	justify-content: space-around;
+}
+
+.features {
+	width: 45%;
+}
+
+.about {
+	width: 45%;
+}
+
+.middle-image {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
+	margin: 4% 0;
+}
+
+.services {
+	width: 30%;
+}
+
+.product {
+	width: 30%;
+}
+
+.vision {
+	width: 30%;
+}
+
+.main-address {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.main-phone {
+	margin: 2% 0;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+}
+
+/* SERVICES PAGE */
+
+.top-img {
+	display: flex;
+	justify-content: center;
+	margin: 5% 0;
+}
+
+.services-top{
+	margin: 5% 0;
+}
+
+.services-top h1{
+	font-size: 178%
+}
+
+.first-row-content {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px 0;
+}
+
+.second-row-content {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px 0;
+}
+
+.third-row-content {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px 0;
+}
+
+.digital-design {
+	padding: 2% 2% 0 2%;
+	width: 45%;
+	height: 250px;
+	background-color: #DCDCDC;
+	border: 1px solid #000;
+}
+
+.digital-design button {
+	width: 45%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+.ux-ui{
+	padding: 2% 2% 0 2%;
+	width: 45%;
+	height: 250px;
+	background-color: #DCDCDC;
+	border: 1px solid #000;
+}
+
+.ux-ui button {
+	width: 45%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+.digital-marketing {
+	padding: 2% 2% 0 2%;
+	width: 45%;
+	height: 250px;
+	background-color: #DCDCDC;
+	border: 1px solid #000;
+}
+
+.digital-marketing button {
+	width: 45%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+.web-development{
+	padding: 2% 2% 0 2%;
+	width: 45%;
+	height: 250px;
+	background-color: #DCDCDC;
+	border: 1px solid #000;
+}
+
+.web-development button {
+	width: 45%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+.ios-development{
+	padding: 2% 2% 0 2%;
+	width: 45%;
+	height: 250px;
+	background-color: #DCDCDC;
+	border: 1px solid #000;
+}
+
+.ios-development button {
+	width: 45%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+.android-development{
+	padding: 2% 2% 0 2%;
+	width: 45%;
+	height: 250px;
+	background-color: #DCDCDC;
+	border: 1px solid #000;
+}
+
+.android-development button {
+	width: 45%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.facts {
+	margin-right: 3%;
+}
+.facts ul{
+	margin: 5% 0 0 5%;
+	font-weight: bold;
+}
+
+.facts li {
+	margin: 2% 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 10% 0;
+}
